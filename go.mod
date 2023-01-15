@@ -3,6 +3,7 @@ module github.com/uma-arai/sbcntr-backend
 go 1.16
 
 require (
+	github.com/go-redis/redis/v8 v8.11.5
 	github.com/labstack/echo/v4 v4.6.1
 	github.com/labstack/gommon v0.3.0
 	gorm.io/driver/mysql v1.1.2
